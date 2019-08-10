@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<!--
+    Name: Michael Ross
+    Date Created: 8/2/19
+    Most Recent Revision: 8/10/19
+-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <title>Menu</title>
+
+        <!-- Bootstrap CDN copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+        <link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
+        <style>
+            body {
+                background-color: #FFD563;
+            }
+            section {
+                margin: auto;
+            }
+
+            article {
+                /*width: 350px;*/
+                min-width: 350px;
+                max-width: 350px;
+                text-align: center;
+                border: 0px solid #0E1729;
+                float: left;
+                /*margin-right: 20px;*/
+            }
+
+            article h2 {
+                font-size: 1.30em;
+                font-weight: bold;
+            }
+
+
+            table, th, td {
+                border: 0px;
+                border-collapse: collapse;
+                padding: 5px 10px;
+            }
+            table {
+                width: 300px;
+                margin: auto;
+            }
+            tr {
+                height: 30px;
+            }
+            th {
+                background-color: #0B146B;
+                color: #F4F5FE;
+                text-align: left;
+            }
+            tr:nth-last-child(even) {
+                background-color: #D1D5F6;
+            }
+            tr:nth-last-child(odd) {
+                background-color: #E6E8FC;
+            }
+        </style>
+    </head>
+
+    <main>
+        <body>
+            <div class="container">
+
+            <header>
+                <h1>Bob's Burgers</h1>
+            </header>
+            <header class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <h3>We're opening a new location!</h3>
+                    </div>
+                    <div class="carousel-item">
+                        <h3>We're rolling out our seasonal menu, with special options for this season.</h3>
+                    </div>
+                    <div class="carousel-item">
+                        <h3>The Drink of the Month is SG Special Brew.</h3>
+                    </div>
+                </div>
+            </header>
+
+            <nav>
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html"><i class="fas fa-home"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <section>
+                <article class="col-sm-4">
+                    <h2>Burger and Fries</h2>
+                    <p>An American Classic!<br />
+                    Cras mattis pulvinar libero sit amet efficitur. Nunc ut sodales tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget sagittis urna. Donec in bibendum odio. Ut sit amet malesuada dui, vel convallis quam. Suspendisse quis risus orci. Etiam eget ipsum a turpis viverra lobortis sit amet eu ante.<br />
+                    $7.95</p>
+                </article>
+
+                <article class="col-sm-4">
+                    <h2>Hot Dog and Chips</h2>
+                    <p>A Summer Classic!<br />
+                    Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi id sodales odio. Cras feugiat turpis in nunc posuere placerat. Praesent et arcu in ipsum vulputate vulputate sit amet et lectus. Curabitur quis dolor varius justo aliquam commodo ut a nunc. Aliquam tortor magna, mollis eu tristique at, semper non justo.<br />
+                    $7.95</p>
+                </article>
+
+                <article class="col-sm-4">
+                    <h2>Italian Sausage and Peppers</h2>
+                    <p>An All-Time Favorite!<br />
+                    Suspendisse suscipit lorem quis sagittis pulvinar. Maecenas at nunc euismod, accumsan nisl sit amet, sollicitudin orci. Ut pretium quis turpis eget accumsan. Donec tortor metus, pellentesque id sagittis nec, blandit et arcu. Sed ut nisl vitae orci commodo porttitor nec at velit. Vestibulum cursus eleifend mollis. Sed rhoncus, tellus et volutpat porta, orci nisl condimentum lorem, ut molestie mi orci vitae nunc.<br />
+                    $10.95</p>
+                </article>
+
+                <article class="col-sm-4">
+                    <h2>Tenderloin Sandwich and chips</h2>
+                    <p>Really Hits the Spot!<br />
+                    Integer volutpat ante sit amet turpis malesuada dictum. Cras eget suscipit tellus. Pellentesque a congue mi, egestas consectetur erat. Fusce ut nibh cursus, rhoncus risus eu, pretium erat. Duis id cursus tellus. Mauris aliquet fermentum hendrerit. Morbi condimentum faucibus dui at tincidunt.<br />
+                    $8.95</p>
+                </article>
+
+                <article class="col-sm-4">
+                    <h2>House Salad</h2>
+                    <p>On the Lighter Side!<br />
+                    Curabitur at turpis iaculis, euismod ex sit amet, dapibus ante. In hendrerit magna eget felis aliquam consectetur. Cras et nisi eget libero convallis vehicula varius vitae nisi. Quisque sit amet ornare purus. Morbi et tincidunt lacus. Morbi et leo sit amet dolor pretium interdum et eget nisi. Praesent vitae enim in sem luctus ultrices nec eu tellus. Vivamus rhoncus sit amet nulla sit amet molestie.<br />
+                    $6.95</p>
+                </article>
+
+                <article class="col-sm-4">
+                    <h2>Brisket Sandwich and Fries</h2>
+                    <p>A Taste of Texas!<br />
+                    Integer ornare iaculis ante nec mollis. Aenean malesuada nisi fermentum vestibulum convallis. Mauris interdum lectus eu aliquam elementum. In eu dolor id mi vulputate lobortis sed ut purus. Donec ac ante diam. Nulla facilisi. Donec semper maximus ornare. In posuere vel diam convallis interdum.<br />
+                    $7.95</p>
+                </article>
+
+                <div class="clear-float"></div>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Beverages</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Root Beer</td>
+                            <td>$3.00</td>
+                        </tr>
+                        <tr>
+                            <td>Bottled Water</td>
+                            <td>$1.25</td>
+                        </tr>
+                        <tr>
+                            <td>Lemonade</td>
+                            <td>$1.00</td>
+                        </tr>
+                        <tr>
+                            <td>Iced Tea</td>
+                            <td>$1.25</td>
+                        </tr>
+                    </tbody>
+                </table> <br />
+            </section>
+
+            <footer>
+                <p>5555 Burgerstreet, Louisville, KY 40255</p>
+                <p>(555) 555-5555</p>
+            </footer>
+            </div> <!-- End of .container div -->
+
+            <!-- CDN links copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+            <script src="https://kit.fontawesome.com/5edb242d85.js"></script>
+        </body>
+    </main>
+</html>
